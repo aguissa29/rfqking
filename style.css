@@ -1,0 +1,153 @@
+/* Estilos generales */
+.rfqking-form-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.rfqking-form-wrapper h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.rfqking-field {
+    margin-bottom: 15px;
+}
+
+.rfqking-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.rfqking-field input[type="text"],
+.rfqking-field input[type="number"],
+.rfqking-field select,
+.rfqking-field input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.rfqking-field input[type="file"] {
+    margin-top: 5px;
+}
+
+.rfqking-field small {
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+    color: #888;
+}
+
+.rfqking-field button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #0073aa;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.rfqking-field button:hover {
+    background: #005177;
+}
+/* Estilo para el botón "Crear cotización abierta" */
+.button-primary {
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.button-primary:hover {
+    background-color: #005177;
+}
+
+/* Espaciado para la tabla */
+.shop_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.shop_table th,
+.shop_table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Estilos generales para el formulario */
+#rfqking-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.rfqking-field {
+    margin-bottom: 20px;
+}
+
+.rfqking-field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.rfqking-field input[type="text"],
+.rfqking-field input[type="number"],
+.rfqking-field input[type="date"],
+.rfqking-field textarea,
+.rfqking-field select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
+}
+
+.rfqking-field textarea {
+    resize: vertical; /* Permite ajustar verticalmente el tamaño del textarea */
+    min-height: 100px; /* Altura mínima */
+}
+
+.rfqking-field .required {
+    color: red;
+}
+
+.rfqking-field button {
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.rfqking-field button:hover {
+    background-color: #005177;
+}
+.rfqking-field select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
